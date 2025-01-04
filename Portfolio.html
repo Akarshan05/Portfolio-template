@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akarshan's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Landing Section -->
+    <div id="landing">
+        <div id="vertical-header">
+            <div id="logo">
+                <h1><span style="color: #90aead; font-size: 75px;">A</span>karshan.</h1>
+            </div>
+            <div id="content">
+                <h2><span style="color: #90aead;">S</span>oftware <span style="color: #90aead">E</span>ngineer</h2>
+                <h1>Hi, I'm <span style="color: #90aead;">Bollam Akarshan</span><br>From India</h1>
+                <p><h4>Passionate about crafting clean, efficient, and innovative solutions through code.</h4></p>
+            </div>
+        </div>
+        <div id="profile-pic">
+            <img src="Akarshan's Picture.jpeg" alt="Akarshan's Picture">
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="About">
+        <div class="container">
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>I am a dedicated Software Engineer with a knack for solving complex problems and a passion for creating elegant, user-centric solutions. With a focus on clean code and innovative design, I aim to make a meaningful impact through technology.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="Services">
+        <div class="container">
+            <h1>My Services</h1>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+                <li>UI/UX Design</li>
+                <li>Digital Marketing</li>
+                <li>Technical Consulting</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="Contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p>If you'd like to get in touch, feel free to reach out through any of the channels below:</p>
+            <ul>
+                <li>Email: <a href="mailto:akarshanakki2004@gmail.com">akarshanakki2004@gmail.com</a></li>
+                <li>Phone: <a href="tel:+919848070038">+91 98480 70038</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/akarshan-b-bb18b6318/" target="_blank">linkedin.com/in/akarshan</a></li>
+                <li>GitHub: <a href="https://github.com/Akarshan05" target="_blank">github.com/akarshan</a></li>
+            </ul>
+        </div>
+    </div>
+     <!-- Back to Top Button -->
+     <button id="back-to-top">↑</button>
+
+     <script>
+         // Scroll to top functionality
+         const backToTopButton = document.getElementById('back-to-top');
+ 
+         window.addEventListener('scroll', () => {
+             if (window.scrollY > 300) {
+                 backToTopButton.style.display = 'block';
+             } else {
+                 backToTopButton.style.display = 'none';
+             }
+         });
+ 
+         backToTopButton.addEventListener('click', () => {
+             window.scrollTo({ top: 0, behavior: 'smooth' });
+         });
+     </script>
+
+   <!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <!-- Quick Links Section -->
+        <div class="footer-links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#landing">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="footer-social">
+            <h2>Follow Me</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/akarshan-b-bb18b6318/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Akarshan05" target="_blank">GitHub</a></li>
+                <li><a href="https://twitter.com/akarshan" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+
+        <!-- Motivational Quote Section -->
+        <div class="footer-quote">
+            <p>"The best way to predict the future is to invent it." – Alan Kay</p>
+        </div>
+    </div>
+    
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>© 2025 Akarshan. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
